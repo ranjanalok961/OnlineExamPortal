@@ -1,6 +1,11 @@
-1.	Introduction
-The Online Exam Portal is a secure and user-friendly Android app designed to facilitate online examinations. It allows students to take exams and professors to upload and evaluate exam papers. The app ensures secure login for both professors and students, provides options for multiple-choice, subjective, and programming exams, and allows for automated as well as manual grading.
-Key Features:
+##1.	Introduction
+
+#The Online Exam Portal is a secure and user-friendly Android app designed to facilitate online examinations. It allows students to take exams and professors to upload and evaluate exam papers. The app ensures secure login for both professors and students, provides options for multiple-choice, subjective, and programming exams, and allows for automated as well as manual grading.
+<img src="https://github.com/user-attachments/assets/5afd4d6d-7274-406c-9a6f-94f2b85727eb" width="200" height="400">
+<img src="https://github.com/user-attachments/assets/3efce92a-9d94-450a-934c-bec6b100c94b" width="200" height="400">
+<img src="https://github.com/user-attachments/assets/3050b689-d0b3-46d9-b3ac-aed11fb1afd2" width="200" height="400">
+
+##Key Features:
 1.	Student Module:
 o	Secure Login/Registration: User authentication with Firebase Authentication (email/password, Google sign-in).
 o	Exam Dashboard: List of available exams with time, date, and subject.
