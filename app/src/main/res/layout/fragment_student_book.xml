@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".StudentBook"
+    android:background="#F5F5F5"> <!-- Light background for contrast -->
+
+
+    <!-- Category Buttons (Horizontal Scroll) -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recommanded Books"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="4dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_bg">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <!-- Button style applied to all buttons -->
+            <Button
+                android:id="@+id/buttonAndroid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android"
+                android:backgroundTint="?attr/colorPrimary"
+                android:textColor="?android:attr/textColorPrimary"
+                android:padding="12dp"
+                android:layout_margin="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_button_background" />
+
+            <Button
+                android:id="@+id/buttonNetworking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Networking"
+                android:backgroundTint="?attr/colorPrimary"
+                android:textColor="?android:attr/textColorPrimary"
+                android:padding="12dp"
+                android:layout_margin="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_button_background" />
+
+            <Button
+                android:id="@+id/buttonDBMS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DBMS"
+                android:backgroundTint="?attr/colorPrimary"
+                android:textColor="?android:attr/textColorPrimary"
+                android:padding="12dp"
+                android:layout_margin="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_button_background" />
+
+            <Button
+                android:id="@+id/buttonDataStructure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Structure"
+                android:backgroundTint="?attr/colorPrimary"
+                android:textColor="?android:attr/textColorPrimary"
+                android:padding="12dp"
+                android:layout_margin="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_button_background" />
+
+            <Button
+                android:id="@+id/buttonMathematics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mathematics"
+                android:backgroundTint="?attr/colorPrimary"
+                android:textColor="?android:attr/textColorPrimary"
+                android:padding="12dp"
+                android:layout_margin="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_button_background" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- RecyclerView to display books -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/recycler_bg" /> <!-- Custom background -->
+
+</LinearLayout>

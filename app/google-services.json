@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "37336976655",
+    "project_id": "onlineexamportal-84b40",
+    "storage_bucket": "onlineexamportal-84b40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37336976655:android:c02e906a96c26151e4827a",
+        "android_client_info": {
+          "package_name": "com.example.onlineexamportal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgOXOE_v9KNKDOYAQxARWo9yIhY25wQyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

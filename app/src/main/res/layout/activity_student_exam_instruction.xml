@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".StudentExamInstruction">
+
+    <TextView
+        android:id="@+id/instructionExamTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exam Title: Advanced Mathematics"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="2dp"/>
+
+    <TextView
+        android:id="@+id/examDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This exam consists of 50 multiple-choice questions and 5 essay questions. You have a total of 3 hours to complete the exam. Make sure to review each question carefully before submitting your answers. You are..."
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingTop="8dp"
+        android:lineSpacingExtra="2dp"/>
+
+    <!-- Instructions Header -->
+    <TextView
+        android:id="@+id/instructionsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="16dp"
+        android:paddingBottom="4dp"/>
+
+    <!-- Instructions Content -->
+    <TextView
+        android:id="@+id/instructionsContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Read each question carefully. 2. Answer all multiple-choice questions by selecting the best option. 3. Write your answers to the essay questions in the provided text boxes. 4. You can navigate between questions using th..."
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:lineSpacingExtra="2dp"/>
+
+    <!-- Start Exam Button -->
+    <Button
+        android:id="@+id/startExamButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Exam"
+        android:textSize="18sp"
+        android:backgroundTint="@color/purple_700"
+        android:textColor="@color/white"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:paddingVertical="12dp"
+        android:background="@drawable/rounded_button"/>
+</LinearLayout>

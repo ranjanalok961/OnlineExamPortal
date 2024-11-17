@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/studentMenuDashboard"
+        android:icon="@drawable/baseline_space_dashboard_24"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/studentMenuBook"
+        android:icon="@drawable/baseline_article_24"
+        android:title="Book" />
+    <item
+        android:id="@+id/studentMenuSetting"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile" />
+</menu>

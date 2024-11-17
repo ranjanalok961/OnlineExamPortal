@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/all_exams"
+        android:title="All Exams" />
+    <item
+        android:id="@+id/upcoming_exams"
+        android:title="Upcoming" />
+    <item
+        android:id="@+id/ongoing_exams"
+        android:title="Ongoing" />
+    <item
+        android:id="@+id/timeover_exams"
+        android:title="Timeover" />
+</menu>
